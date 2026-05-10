@@ -1,2 +1,2 @@
-# Ironworks Social Art Network
+# Ironworks Social Art Network Prototype
 
