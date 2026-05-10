@@ -1,0 +1,65 @@
+body {
+    
+    /*background-image: url(images/bkgd.png); 
+     * Rebuild once opacity has been fixed.*/
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000;
+    background-position: center;
+    background-attachment: scroll;
+    
+    
+    
+    overflow:Flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    display:block; 
+    margin-left: auto;
+    margin-right: auto;
+    place-content: center;
+}
+
+header{font-family: Elevon;
+        Color: white }
+/* Define custom font Elevon*/
+@font-face{
+    font-family: elevon; 
+src: link rel = "stylesheet" href="https://use.typekit.net/rxj6dzm.css"
+}
+
+
+
+nav{font-size: small}
+
+
+.title {font-family: Elevon, Helvetica;
+        text-align: center; margin-left: auto;
+        color: #10e0e0;
+        font-size: larger
+        
+}
+.subtitle{
+    font-family: Elevon,Helvetica;
+           Color: #000000;
+        font-size: 20px;
+        
+}
+
+p{font-size: large;
+    display:grid;
+    text-align: center;margin-bottom: auto 
+}
+
+/*footer{
+    display: gird; 
+    position: absolute;
+    margin-bottom: auto;*/
+    
+
+
+    

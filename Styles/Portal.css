@@ -1,0 +1,35 @@
+body {
+    background: #000000;
+    overflow:Flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{font-family: Elevon;
+        Color: white }
+/* Define custom font Elevon*/
+@font-face{
+    font-family: elevon; 
+src: link rel = "stylesheet" href="https://use.typekit.net/rxj6dzm.css"
+}
+
+nav{font-size: xx-small}
+
+
+.title {font-family: Elevon, Helvetica;
+        color: #10e0e0;
+        font-size: 30px
+}
+.subtitle{
+    font-family: Elevon,Helvetica;
+           Color: #000000;
+        font-size: 20px;
+        
+}
+a{
+    color: white;
+    font-size: small;
+    display:grid;
+    place-items: center; 
+}

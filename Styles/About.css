@@ -1,0 +1,22 @@
+/* Define custom font Elevon*/
+@font-face{
+    font-family: elevon; 
+src: link rel = "stylesheet" href="https://use.typekit.net/rxj6dzm.css"
+}
+
+header{font-family: Elevon;
+    Color: white    
+}
+
+Ul{color: white}
+
+Section{font-family: Elevon;
+    Color: white     
+}
+
+body{font-family: Elevon;
+ background: #000000;
+    display: flow-root;
+    justify-content: center;
+    align-items: center;
+}

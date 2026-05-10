@@ -1,0 +1,111 @@
+/* General page styling */
+
+header{ position:sticky;
+        top: 0;
+        background: padding-box;
+        background-color: #000000;
+        padding: 4px;
+        font-family: Elevon;
+        font-size: xx-large;
+        Color: white 
+}
+
+nav{ font-size: small; 
+    }
+
+/* Define custom font Elevon*/
+@font-face{
+    font-family: elevon; 
+src: link rel = "stylesheet" href="https://use.typekit.net/rxj6dzm.css"
+}
+
+body {
+    font-family: elevon, sans-serif;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    background: #000000;
+}
+
+/* Title styling */
+h1 {
+    font-size: x-large;
+    color:#0bc421;
+    text-align: center;
+    padding: 20px;
+}
+h2 {
+    color:#0bc421;
+    text-align: center;
+    padding: 20px;
+}
+h3 {
+    font-size: larger;
+    color:#0bc421;
+    text-align: center;
+    padding: 20px;
+}
+h4 {
+    font-size: x-large;
+    color:#0bc421;
+    text-align: center;
+    padding: 20px;
+}
+h5 {
+    font-size: x-large;
+    color:#0bc421;
+    text-align: center;
+    padding: 20px;
+}
+h6 {
+    font-size: x-large;
+    color:#0bc421;
+    text-align: center;
+    padding: 20px;
+}
+/* Gallery grid layout */
+.gallery {
+    align-content: center;
+    size: initial;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 3fr));
+    gap: 49px;
+    padding: 47px;
+}
+.gallery1 {
+    align-content:center;
+    display:flex;
+    width: 376px;
+    height:auto;
+    /*grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));*/
+    gap: 49px;
+    padding: 27px;
+}
+/* Image styling */
+.gallery img {
+    /*align-content: center;*/
+    width: 99%;
+    height: auto;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.gallery1 img {
+    align-content:center;
+    width:336px;
+    height: auto;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+.gallery1 img:hover {
+    transform: scale(1.05);
+}
+

@@ -1,2 +1,2 @@
-# IronWorks Art Gallery
-Prototype for the social network
+# Ironworks Social Art Network
+
